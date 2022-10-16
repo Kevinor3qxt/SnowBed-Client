@@ -92,7 +92,7 @@ getgenv().notify = function(title, text, icon, time)
 end
 
 local Owner = {
-    [587419584] = true; 
+    [1488129468] = true; 
 }
 
 getgenv().EspOwnerDude = function(OwnerDude)
