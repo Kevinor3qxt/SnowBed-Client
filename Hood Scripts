@@ -6705,7 +6705,7 @@ for i = 1, 1 do
     task.wait(0.2)
 end
 local DaHoodSection = DaHood.NewSection({Text = "Da Hood Scripts Misc"})
-local DaHoodSection = DaHoodHubs.NewSection({Text = "Da Hood Hubs"})
+local DaHoodHubsSection = DaHood.NewSection({Text = "Da Hood Hubs"})
 
 local Button = DaHoodHubsSection.NewButton({
     Text = "Faded", 
