@@ -9117,5 +9117,12 @@ local Button = BeeSwarmSection.NewButton({
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/max0mind/lua/main/loader.lua'))()
     end, 
-    Description = "Opens Andromeda Script!!"
+    Description = "Opens Andromeda Script!"
+})
+local Button = BeeSwarmSection.NewButton({
+    Text = "KocMoc", 
+    Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+    end, 
+    Description = "Opens KocMoc Script!"
 })
