@@ -52,6 +52,7 @@ local Window = Library.NewWindow({
 local TheStreets = Window.NewPage({Text = "The Streets"})
 local DaHood = Window.NewPage({Text = "Da hood"})
 local Fe = Window.NewPage({Text = "Fe Scripts"})
+local BeeSwarm = Window.NewPage({Text = "Bee Sawrm Scripts"})
 
 local StreetsSection = TheStreets.NewSection({Text = "The Streets Scripts"})
 
@@ -9107,4 +9108,14 @@ while wait() do
 end
     end, 
     Description = "Little bit better then zor hub!"
+})
+
+local BeeSawrmSection = BeeSwarm.NewSection({Text = "Section 1"})
+
+local Button = BeeSwarmSection.NewButton({
+    Text = "Andromeda", 
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/max0mind/lua/main/loader.lua'))()
+    end, 
+    Description = "Opens Andromeda Script!"
 })
