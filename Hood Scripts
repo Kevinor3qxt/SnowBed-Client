@@ -9110,7 +9110,7 @@ end
     Description = "Little bit better then zor hub!"
 })
 
-local BeeSawrmSection = BeeSwarm.NewSection({Text = "Section 1"})
+local BeeSwarmSection = BeeSwarm.NewSection({Text = "BeeSwarm Scripts"})
 
 local Button = BeeSwarmSection.NewButton({
     Text = "Andromeda", 
