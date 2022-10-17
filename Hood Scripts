@@ -52,7 +52,7 @@ local Window = Library.NewWindow({
 local TheStreets = Window.NewPage({Text = "The Streets"})
 local DaHood = Window.NewPage({Text = "Da hood"})
 local Fe = Window.NewPage({Text = "Fe Scripts"})
-local BeeSwarm = Window.NewPage({Text = "Bee Sawrm Scripts"})
+local BeeSwarm = Window.NewPage({Text = "Bee Swarm Scripts"})
 
 local StreetsSection = TheStreets.NewSection({Text = "The Streets Scripts"})
 
