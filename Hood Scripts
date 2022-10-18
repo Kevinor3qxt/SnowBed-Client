@@ -6707,6 +6707,15 @@ for i = 1, 1 do
 end
 local DaHoodSection = DaHood.NewSection({Text = "Da Hood Scripts Misc"})
 local DaHoodHubsSection = DaHood.NewSection({Text = "Da Hood Hubs"})
+local DaHoodModdedSection = DaHood.NewSection({Text = "Da Hood Modded Hubs"})
+
+local Button = DaHoodModdedSection.NewButton({
+    Text = "Oblivion", 
+    Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/CorruptOblivion/Oblivion/main/loader.lua"))()
+    end, 
+    Description = "Opens Oblivion GUI click V to open and close!"
+})
 
 local Button = DaHoodHubsSection.NewButton({
     Text = "Faded", 
