@@ -23,7 +23,7 @@ local Overrides = {
 }
 
 local Window = Library.NewWindow({
-    Text = "SnowBed Client V2",
+    Text = "SnowBed Client V3",
 
     WindowSize = Vector2.new(550, 450),     -- Initial Size of the Window
     WindowPosition = Vector2.new(400, 200), -- Initial Position of the Window
